@@ -8,13 +8,8 @@
   ],
   "routes": [
     {
-<<<<<<< HEAD
-      "src": "/(.*)",
-      "dest": "/"
-=======
       "src": "/",
       "dest": "/api/flights"
->>>>>>> 6da2dd300e0f2c85c7d871a81a3124a04b149bb4
     }
   ]
 }
