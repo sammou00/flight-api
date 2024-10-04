@@ -1,0 +1,28 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0px;
+}
+
+.img {
+    width: 20%;
+}
+
+.img img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+h3 {
+    text-align: right;
+    font-family: cursive;
+}
