@@ -38,6 +38,11 @@ app.use(logger);
 app.set('view engine', 'ejs');
 app.set('views', path.join(PATH, 'views'));
 
+// handle /
+app.get('/', (req, res) => {
+    res.render('index');
+});
+
 // use routes
 app.use('/api', userRoutes);
 app.use('/api', flightRoutes);
